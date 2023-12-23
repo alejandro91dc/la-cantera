@@ -1,3 +1,5 @@
+
+
 $( document ).ready(function() {
     AOS.init();
 
@@ -15,4 +17,7 @@ $( document ).ready(function() {
         myvid.src = myvids[activeVideo];
         myvid.play();
     });
+
+ 
+
 });
