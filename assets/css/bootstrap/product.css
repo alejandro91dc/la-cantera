@@ -1,0 +1,95 @@
+.container {
+  max-width: 960px;
+}
+
+/*
+ * Custom translucent site header
+ */
+
+.site-header {
+  background-color: rgba(0, 0, 0, .85);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+}
+.site-header a {
+  color: #8e8e8e;
+  transition: color .15s ease-in-out;
+  text-decoration: none;
+
+}
+.site-header a:hover {
+  color: #fff;
+  text-decoration: underline;
+
+}
+
+#main-title {
+  left: 5.2%;
+  position: absolute;
+  top: 29%;
+  color: transparent;
+}
+
+#main-tittle text {
+  border: solid 1px yellow;
+
+}
+
+/*
+ * Dummy devices (replace them with your own or something else entirely!)
+ */
+
+.product-device {    
+  position: absolute;
+  right: -9%;
+  bottom: -22%;
+  width: 1400px;
+  height: 500px;
+  /* background-color: #33333377; */
+  border-radius: 21px;
+  transform: rotate(343deg);
+}
+
+.product-device::before {
+  position: absolute;
+  
+  top: 10%;
+  right: 10px;
+  bottom: 10%;
+  left: 10px;
+  content: "";
+  /* background-color: rgba(255, 255, 255, 0.1); */
+  border-radius: 5px;
+  backdrop-filter: hue-rotate(164deg);
+}
+
+.product-device-2 {
+  top: -84%;
+  height: 100%;
+  right: auto;
+  bottom: 0;
+  left: -17%;
+  transform: rotate(343deg);
+  /* background-color: #3235386c; */
+  backdrop-filter: contrast(4.5);
+}
+
+ .product-device-2 video {
+  width: auto;
+  height: 100%;  
+  /* border-radius: 100%; */
+}
+
+
+/*
+ * Extra utilities
+ */
+
+.flex-equal > * {
+  flex: 1;
+}
+@media (min-width: 768px) {
+  .flex-md-equal > * {
+    flex: 1;
+  }
+}

@@ -1,0 +1,43 @@
+#cabecera {
+
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    background: url("https://design2seo.com/assets/blog/svg-clipping/video_waves3.mp4");
+    background-position: center center;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    color: white;
+    margin: 0!important;
+    padding: 0!important;
+}  
+
+#header-tittle {
+    color: white!important;
+}
+  #wrapper {
+    position: absolute;
+    width: 100%;
+    margin: 0 auto;
+    transform: rotate(343deg);
+  } 
+video {
+    width: 100%;
+    height: auto;
+}
+
+.clipped-video {
+    -webkit-clip-path: url(#text-overlay);
+    clip-path: url(#text-overlay);
+  }
+  #cabecera svg {
+    display: block;
+    position: absolute;
+    top: 0;
+  }
+  text {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 13vw;
+  }
