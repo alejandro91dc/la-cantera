@@ -13,7 +13,7 @@
     padding: 0!important;
 }  
 
-#header-tittle {
+#header-tittle, h3{
     color: white!important;
 }
   #wrapper {
@@ -40,4 +40,22 @@ video {
     font-family: sans-serif;
     font-weight: bold;
     font-size: 13vw;
+  }
+
+  #about-section div {
+    height: 700px;
+  }
+
+  #about-section button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 4rem;
+    width: 10rem;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 1px 1px 5px black;
+    background-color: white;
   }
