@@ -42,11 +42,11 @@ video {
     font-size: 13vw;
   }
 
-  #about-section div {
-    height: 700px;
+  .about-section{
+    height: 100vh;
   }
 
-  #about-section button {
+  .about-section button {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -59,3 +59,87 @@ video {
     box-shadow: 1px 1px 5px black;
     background-color: white;
   }
+
+  /*Animejs*/
+
+
+.animation-wrapper {
+  width: 80%;
+  padding-bottom: 40%;
+}
+
+.stagger-visualizer {
+  position: absolute;
+  width: 1100px;
+  height: 550px;
+  transform-origin: left top;
+}
+
+.stagger-visualizer .dots-wrapper {
+  transform: translateZ(0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.stagger-visualizer .dot {
+  position: relative;
+  z-index: 1;
+  width: 23px;
+  height: 23px;
+  margin: 16px;
+  background-color: currentColor;
+  border-radius: 50%;
+}
+
+@media (min-width: 740px) {
+  .stagger-visualizer .dot {
+    background-color: transparent;
+    background-image: linear-gradient(180deg, #FFFFFF 8%, #D3CDC6 100%);
+  }
+  #product-text {
+    padding: 2em;
+
+}
+}
+
+model-viewer {
+  width: 100%;
+  height: 100vh;
+}
+
+.stagger-visualizer .cursor {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 37px;
+  height: 37px;
+  margin: 9px;
+  background-color: currentColor;
+  border-radius: 50%;
+}
+#product-text {
+  padding: 6em;
+  color: #fff;
+}
+
+ #miCanvas {
+  width: 100%;
+}
+#miCanvas {
+  height: 100vh;  /* Ocupa el 100% de la altura de la ventana */
+  display: block;  /* Asegura que el contenedor sea un elemento de bloque */
+  margin: 0;  /* Elimina los márgenes predeterminados del contenedor */
+  overflow: hidden;  /* Evita que el contenido sobresalga del contenedor */
+}
+
+model-viewer {
+  width: 100%; /* Ancho del 100% del contenedor padre */
+  height: 100vh; /* Altura fija, ajusta según sea necesario */
+}
