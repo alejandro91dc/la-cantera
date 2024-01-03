@@ -1,3 +1,18 @@
+/*--RUTA PARA COLORES--*/
+
+:root {
+  --sz: 10px;   /* controla el tamaño */
+  --c1: #d6c3ea; /* color 1 */
+  --c2: #a98ec3; /* color 2 */
+  --c3: #6a587f; /* color 3 */
+  --ts: 50%/ calc(var(--sz) * 10) calc(var(--sz) * 17.5); /* tamaño de la tesela */
+}
+
+/*--FIN DE RUTA PARA COLORES--*/
+
+
+
+
 #cabecera {
 
     height: 100vh;
@@ -81,25 +96,22 @@ video {
         circle at 93.3% 75%,
         rgba(0, 255, 0, 0.5),
         rgba(0, 255, 0, 0) 70.71%
-      ) beige;--*/
+      ) beige;
+      
+      https://josetxu.com/patrones-teselados-en-css/--*/
 
 #text-nosotros {
-  background:
-  radial-gradient(
-    circle at 50% 0,
-    rgba(207, 223, 60, 0.5),
-    rgba(131, 151, 43, 0) 70.71%
-  ),
-  radial-gradient(
-    circle at 6.7% 75%,
-    rgba(255, 247, 0, 0.5),
-    rgba(0, 0, 255, 0) 70.71%
-  ),
-  radial-gradient(
-      circle at 93.3% 75%,
-      rgba(0, 255, 0, 0.5),
-      rgba(0, 255, 0, 0) 70.71%
-    ) beige;
+padding-top: 3em;
+background:
+conic-gradient(
+  from 0deg at 50% 50%, 
+  var(--c2) 0 60deg, 
+  var(--c1) 0 120deg, 
+  var(--c3) 0 180deg, 
+  var(--c2) 0 240deg, 
+  var(--c1) 0 300deg, 
+  var(--c3) 0 360deg
+);
 }
 
 .container-fluid {
