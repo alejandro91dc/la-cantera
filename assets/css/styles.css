@@ -1,3 +1,35 @@
+
+:root {
+  --cantera-yellow: #FFD600;
+  --cantera-grey: #3B4145;
+  --cantera-dark: #1D2022;
+}
+
+@font-face {
+  font-family: "Collonse";
+  src: url("../fonts/Collonse.ttf") format('truetype');
+}
+@font-face {
+  font-family: "Collonse Bold";
+  src: url("../fonts/Collonse-bold.ttf") format('truetype');
+}
+@font-face {
+  font-family: "Collonse Hollow";
+  src: url("../fonts/Collonse-hollow.ttf") format('truetype');
+}
+
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6, b {
+  font-family: 'Collonse Bold'!important;
+  color: var(--cantera-yellow)!important;
+}
+
+body, p {
+  font-family: 'Titillium Web', sans-serif!important;
+  color: white;
+
+}
+
 #cabecera {
 
     height: 100vh;
@@ -7,15 +39,15 @@
     background: url("https://design2seo.com/assets/blog/svg-clipping/video_waves3.mp4");
     background-position: center center;
     background-repeat: no-repeat;
-    font-family: sans-serif;
-    color: white;
     margin: 0!important;
     padding: 0!important;
 }  
 
-#header-tittle, h3{
-    color: white!important;
+a, text {
+  font-family: 'Collonse'!important;
 }
+
+
   #wrapper {
     position: absolute;
     width: 100%;
@@ -61,6 +93,64 @@ video {
   }
 
   /*Animejs*/
+.intro-text {
+  box-sizing: border-box;
+  padding: 10em 4em!important;
+  font-size: 1.5em;
+  line-height: 1.5em;
+  font-family: 'Collonse'!important;
+  text-transform: uppercase;
+
+}
+
+.intro-img {
+  position: relative;
+  margin: auto;
+  line-height: 160px;
+  text-align: center;
+  font-size: 24px;
+  width: 106%;
+
+  
+  &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      border-right: 2em solid var(--cantera-yellow);
+      border-top: 2em solid var(--cantera-yellow);
+      transition: all .5s;
+      animation: clippath 3s infinite linear;
+  }
+}
+
+.intro-img {
+  background: linear-gradient(90deg, rgba(22,26,34,0) 0%, #222529 80%), url("/assets/img/Modelo\ 1.3.png");
+;
+  vertical-align: middle;
+/*     border: solid 2em var(--cantera-yellow);
+ */    z-index: 9;
+    width: 106%;
+    height: 100%;
+}
+
+@keyframes clippath {
+  0%,
+  100% {
+    clip-path: inset(0 0 0 95%);
+  }
+  25% {
+    clip-path: inset(95% 0 0 0);
+  }
+  50% {
+    clip-path: inset(0 95% 0 0);
+  }
+  75% {
+    clip-path: inset(0 0 95% 0);
+  }
+}
 
 
 .animation-wrapper {
