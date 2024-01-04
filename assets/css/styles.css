@@ -91,6 +91,37 @@ video {
     background-color: white;
   }
 
+  /*--EDICIÓN CAJAS DE TEXTO + IMÁGENES--*/
+
+
+#text-nosotros {
+display: flex;
+flex-direction: column;
+width: 100%;
+height: 60em;
+padding-top: 1em;
+padding-bottom: 1em;
+align-items: center;
+border-style: solid;
+}
+
+#text-nosotros .container{
+margin-top: 0.5em;
+margin-bottom:0.5em;
+padding: 1em;
+}
+
+#contenido-interno {
+border-style: solid;
+border-color: var(--cantera-yellow);
+border-width: 10px;
+width: 60%;
+}
+
+
+  /*--FIN DE EDICIÓN CAJAS DE TEXTO + IMÁGENES--*/
+
+
   /*Animejs*/
 .intro-text {
   box-sizing: border-box;
