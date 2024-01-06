@@ -15,12 +15,18 @@
   color: #8e8e8e;
   transition: color .15s ease-in-out;
   text-decoration: none;
+  height: auto!important;
 
 }
 .site-header a:hover {
-  color: #fff;
-  text-decoration: underline;
+  color: gold;
+  border-bottom: 10px solid gold!important;
+  
+}
 
+.site-header a.active {
+  border-bottom: 10px solid gold!important;
+  
 }
 
 #main-title {
@@ -30,7 +36,7 @@
   color: transparent;
 }
 
-#main-tittle text {
+#main-title text {
   border: solid 1px yellow;
 
 }
