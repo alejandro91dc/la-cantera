@@ -188,6 +188,9 @@ video {
   z-index: 1;
 }
 
+#ccc {
+  height: 50vh!important;
+}
 .yellow-block {
   background-color: var(--cantera-yellow);
   position: absolute;
@@ -265,6 +268,84 @@ video {
     font-size: 1.5em;
     margin-bottom: 4em;
     height: 60%;
+}
+
+.c-box {
+  background: var(--cantera-yellow);
+    margin: 1rem;
+    height: 100%;
+    /* width: 40%; */
+    height: 13em;
+    position: relative;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+}
+.c-box:hover {
+  background: var(--cantera-dark);
+  color: var(--cantera-yellow)!important;
+  transition: 0.5s;
+}
+.c-box:hover h2 {
+  color: var(--cantera-yellow)!important;
+  transition: 0.5s;
+}
+.c-box:hover h2 {
+  color: var(--cantera-yellow)!important;
+  transition: 0.5s;
+}
+
+.c-box h2 {
+  color: var(--cantera-dark)!important;
+  cursor: pointer;
+
+}
+
+.c-box::before {
+  content: "";
+  width: 100%;
+  height: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0em;
+  border-bottom: 29px solid var(--cantera-yellow);
+  border-left: 29px solid var(--cantera-dark);
+  border-right: 29px solid var(--cantera-dark);
+}
+
+.c-box:hover::before,  .c-box:hover::after{
+  border-bottom-color: var(--cantera-dark);
+  border-left-color:  #212529;
+  border-right-color: #212529;
+  border-top-color: var(--cantera-dark);
+  transition: 0.5s;
+}
+
+.c-box:hover::after {
+  border-left-color:  #212529;
+  border-right-color: #212529;
+  transition: 0.5s;
+}
+
+
+.c-box::after {
+content: "";
+  width: 100%;
+  height: 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-top: 29px solid var(--cantera-yellow);
+  border-left: 29px solid var(--cantera-dark);
+  border-right: 29px solid var(--cantera-dark);
+
+}
+
+.content-box {
+  display: none;
+  margin-bottom: 20px;
 }
 
 .animation-wrapper {
