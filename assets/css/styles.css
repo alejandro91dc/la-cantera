@@ -102,8 +102,12 @@ height: 60em;
 padding-top: 1em;
 padding-bottom: 1em;
 align-items: center;
-border-style: solid;
+justify-content: center;
+
 }
+
+/*--background-color: var(--cantera-grey);
+    background-color: var(--cantera-yellow);--*/
 
 #text-nosotros .container{
 margin-top: 0.5em;
@@ -112,10 +116,8 @@ padding: 1em;
 }
 
 #contenido-interno {
-border-style: solid;
-border-color: var(--cantera-yellow);
-border-width: 10px;
-width: 60%;
+background-color: transparent;
+backdrop-filter: blur(85%);
 }
 
 
