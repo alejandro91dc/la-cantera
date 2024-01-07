@@ -207,6 +207,44 @@ video {
     height: 100%;
 }
 
+
+.event-content {
+  height: 70vh;
+  margin-bottom: 10em;
+  position: relative;
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-right: 2em solid var(--cantera-yellow);
+    border-top: 2em solid var(--cantera-yellow);
+    transition: all .5s;
+    animation: clippath 3s infinite linear;
+}
+}
+#event-g { 
+  background-image: url(/assets/img/evento\ 1.jpg); 
+  background-size: cover; 
+  margin-right: 10%;
+}
+  .transparent {
+    background-color: var(--cantera-dark);
+    backdrop-filter: blur(5px);
+    width: 90%;
+    height: auto;
+    padding: 4em;
+    position: absolute;
+    z-index: 2;
+
+  ;
+}
+.t-a{
+  bottom: -10%;
+  right: -10%;
+}
 @keyframes clippath {
   0%,
   100% {
