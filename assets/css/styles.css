@@ -149,16 +149,13 @@ align-items: center;
 justify-content: center;
 display: flex;
 flex-direction: column;
+margin-left: 4em;
+margin-right: 4em;
 }
 
 #anuncios .row .col h1 {
 color: var(--cantera-dark)!important;
-}
-
-
-
-
-  
+} 
   /*--FINAL DE ANUNCIOS--*/
   
   /*--EDICIÓN CAJAS DE TEXTO + IMÁGENES--*/
@@ -184,6 +181,11 @@ color: var(--cantera-dark)!important;
   padding: 1em;
   height: 3em;
   border-radius: 20px 20px 0 0;
+  }
+
+  #text-nosotros #contenido {
+  width: 85%;
+  margin-bottom: 3em;
   }
   
   
