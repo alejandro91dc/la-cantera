@@ -111,6 +111,10 @@ video {
   transform: rotate(16deg);
 }
 
+.block-intro-text h2, .block-intro-text h3 {
+  color: var(--cantera-dark)!important;
+}
+
 .block-intro-text .yellow-line {
   position: absolute;
   right: 0;
@@ -128,7 +132,8 @@ video {
 }
 
 .yellow-line {
-  border-bottom: 35px solid gold;
+/*   border-bottom: 35px solid gold;
+ */  border-bottom: 35px solid var(--cantera-dark);
   width: 20%;
 }
 
@@ -381,6 +386,18 @@ content: "";
   margin: 16px;
   background-color: currentColor;
   border-radius: 50%;
+}
+
+/*FOOTER */
+
+#footerContainer {
+  background-color: var(--cantera-yellow);
+}
+
+#footerContainer h1, h5 {
+  border-bottom: 10px solid var(--cantera-dark);
+  color: var(--cantera-dark)!important;
+  margin-bottom: 1.1em;
 }
 
 @media (min-width: 740px) {
