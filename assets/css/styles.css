@@ -147,15 +147,15 @@ width: 100%;
 height: 20em;
 align-items: center;
 justify-content: center;
+display: flex;
+flex-direction: column;
 }
 
 #anuncios .row .col h1 {
 color: var(--cantera-dark)!important;
 }
 
-#anuncios .row .col h1:hover {
-color: var(--cantera-yellow)!important;
-}
+
 
 
   
