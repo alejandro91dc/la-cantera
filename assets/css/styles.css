@@ -207,6 +207,105 @@ video {
     height: 100%;
 }
 
+/* EVENTOS */
+.block-intro-text2 {
+  position: absolute;
+  height: 300px;
+  width: 800px;
+  z-index: 12;
+  top: 15em;
+  left: 7em;
+  text-align: left;
+  transform: rotate(16deg);
+}
+.block-intro-text2 h2, .block-intro-text2 h3 {
+  color: white!important;
+}
+.event-content {
+  height: 70vh;
+  margin-bottom: 10em;
+  position: relative;
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-right: 2em solid var(--cantera-yellow);
+    border-top: 2em solid var(--cantera-yellow);
+    transition: all .5s;
+    animation: clippath 3s infinite linear;
+}
+}
+#event-libertino { 
+  background-image: url(/assets/img/evento\ 1.jpg); 
+  background-size: cover; 
+  margin-right: 5%;
+}
+#event-spitfire { 
+  background-image: url(/assets/img/evento\ 2.jpg); 
+  background-size: cover; 
+  margin-right: 5%;
+}
+#event-flow { 
+  width: 25%;
+  background-image: url(/assets/img/evento\ 3.jpg); 
+  background-size: cover; 
+  margin-right: 5%;
+}
+#event-identity { 
+  width: 25%;
+  background-image: url(/assets/img/evento\ 4.jpg); 
+  background-size: cover; 
+  margin-right: 5%;
+}
+#event-sura { 
+  width: 25%;
+  background-image: url(/assets/img/evento\ 5.jpg); 
+  background-size: cover; 
+  margin-right: 5%;
+}
+  .transparent {
+    background-color: var(--cantera-grey);
+    backdrop-filter: blur(5px);
+    width: 90%;
+    height: auto;
+    padding: 2em;
+    position: absolute;
+    z-index: 2;
+
+  ;
+}
+.t-a{
+  bottom: -5%;
+  right: -5%;
+}
+
+.transparent::before {
+  
+  content: "";
+  width: 100%;
+  height: 0;
+  position: absolute;
+  top: -1em;
+  right: 0em;
+  border-bottom: 29px solid var(--cantera-grey);
+/*   border-left: 29px solid var(--cantera-dark);
+ */  border-right: 29px solid var(--cantera-dark);
+}
+
+.transparent::after {
+    content: "";
+    width: 100%;
+    height: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-top: 29px solid var(--cantera-grey);
+    border-left: 29px solid var(--cantera-dark);
+    border-right: 29px solid var(--cantera-dark);
+  }
 @keyframes clippath {
   0%,
   100% {
