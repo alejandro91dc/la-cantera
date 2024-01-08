@@ -244,13 +244,25 @@ video {
   margin-right: 5%;
 }
 #event-spitfire { 
-  background-image: url(/assets/img/evento\ 1.jpg); 
+  background-image: url(/assets/img/evento\ 2.jpg); 
   background-size: cover; 
   margin-right: 5%;
 }
-#event-menos { 
+#event-flow { 
   width: 25%;
-  background-image: url(/assets/img/evento\ 1.jpg); 
+  background-image: url(/assets/img/evento\ 3.jpg); 
+  background-size: cover; 
+  margin-right: 5%;
+}
+#event-identity { 
+  width: 25%;
+  background-image: url(/assets/img/evento\ 4.jpg); 
+  background-size: cover; 
+  margin-right: 5%;
+}
+#event-sura { 
+  width: 25%;
+  background-image: url(/assets/img/evento\ 5.jpg); 
   background-size: cover; 
   margin-right: 5%;
 }
