@@ -51,11 +51,11 @@ body, p {
 }
 
 #cabecera .img-moob {
-filter: blur(5px);
+filter: blur(7px);
 }
 
 a, text {
-  font-family: 'Collonse'!important;
+font-family: 'Collonse'!important;
 }
 
 .text-intro {
@@ -66,18 +66,16 @@ z-index: 12;
 top: 35em;
 left: 7em;
 text-align: right;
-transform: rotate(16deg);
+transform: rotate(17deg);
 }
-
-
 
 
 .text-intro h2 {
-color: white!important;
+color: var(--cantera-yellow)!important;
 }
 
 .text-intro h3 {
-  color: white!important;
+  color: var(--cantera-yellow)!important;
   }
   
 
