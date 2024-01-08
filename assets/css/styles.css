@@ -51,7 +51,7 @@ body, p {
 }
 
 #cabecera .img-moob {
-filter: blur(7px);
+filter: blur(4px);
 }
 
 a, text {
@@ -61,9 +61,9 @@ font-family: 'Collonse'!important;
 .text-intro {
 position: absolute;
 height: 300px;
-width: 800px;
+width: 700px;
 z-index: 12;
-top: 35em;
+top: 15em;
 left: 7em;
 text-align: right;
 transform: rotate(17deg);
