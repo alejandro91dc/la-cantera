@@ -1,0 +1,197 @@
+{
+    "asset": {
+        "version": "2.0",
+        "generator": "Open Asset Import Library (assimp v5.2.cf7d3637)"
+    },
+    "extensionsUsed": [
+        "KHR_materials_volume",
+        "FB_ngon_encoding"
+    ],
+    "accessors": [
+        {
+            "bufferView": 0,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 619488,
+            "type": "VEC3",
+            "max": [
+                -0.14460855722427369,
+                0.5555480718612671,
+                0.13890427350997926
+            ],
+            "min": [
+                -0.6948512196540833,
+                -0.057421036064624789,
+                -0.130131334066391
+            ]
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 619488,
+            "type": "VEC3",
+            "max": [
+                0.9999991655349731,
+                0.9999834299087524,
+                0.999998927116394
+            ],
+            "min": [
+                -0.9999979734420776,
+                -0.9999586939811707,
+                -0.9999986886978149
+            ]
+        },
+        {
+            "bufferView": 2,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 619488,
+            "type": "VEC2",
+            "max": [
+                0.997786819934845,
+                0.9855928421020508
+            ],
+            "min": [
+                0.002198681700974703,
+                0.002431631088256836
+            ]
+        },
+        {
+            "bufferView": 3,
+            "byteOffset": 0,
+            "componentType": 5125,
+            "count": 619488,
+            "type": "SCALAR",
+            "max": [
+                619487
+            ],
+            "min": [
+                0
+            ]
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 22301568,
+            "uri": "result.bin"
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 7433856,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 7433856,
+            "byteLength": 7433856,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 14867712,
+            "byteLength": 4955904,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 19823616,
+            "byteLength": 2477952,
+            "target": 34963
+        }
+    ],
+    "materials": [
+        {
+            "name": "green",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.09319999814033508,
+                    0.800000011920929,
+                    0.0560000017285347,
+                    1.0
+                ],
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.5
+            }
+        },
+        {
+            "name": "material"
+        }
+    ],
+    "meshes": [
+        {
+            "name": "T-Shirt",
+            "primitives": [
+                {
+                    "mode": 4,
+                    "material": 0,
+                    "indices": 3,
+                    "attributes": {
+                        "POSITION": 0,
+                        "NORMAL": 1,
+                        "TEXCOORD_0": 2
+                    }
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "name": "Male T-Shirt",
+            "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.05663624778389931,
+                -0.2801925241947174,
+                0.08329493552446366,
+                1.0
+            ],
+            "children": [
+                1
+            ]
+        },
+        {
+            "name": "T-Shirt",
+            "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.41923636198043826,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "mesh": 0
+        }
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0
+            ]
+        }
+    ],
+    "scene": 0
+}

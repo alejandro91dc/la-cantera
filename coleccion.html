@@ -24,7 +24,11 @@
           <!-- Dos bloques a media pantalla -->
           <div class="col-md-3 text-white">
             <div id="miCanvas">
-              <model-viewer src="assets/3d/cantera.glb" alt="Descripción del modelo" auto-rotate camera-controls></model-viewer>
+              <model-viewer id="shoe" camera-controls touch-action="pan-y" src="assets/3d/camiseta7.gltf" tone-mapping="commerce" ar alt="A 3D model of a Shoe">
+                <div class="controls">
+                  <div>Variant: <select id="variant"></select></div>
+                </div>
+              </model-viewer>            
             </div>  
           </div>
           <div id="product-text" class="col-md-5 text-white">
@@ -39,37 +43,37 @@
     <section id="product-grid" class="container-fluid">
       <div class="row justify-content-center align-items-center">
         <div class="col-md-3 product-item">
-          <model-viewer src="assets/3d/cantera.glb" alt="Descripción del modelo" auto-rotate camera-controls></model-viewer>
+          <model-viewer src="assets/3d/joan.glb" alt="Descripción del modelo" auto-rotate disable-zoom camera-controls></model-viewer>
         </div>
         <div class="col-md-4 product-item">
           <p>Nombre del producto</p>
-          <model-viewer src="assets/3d/cantera.glb" alt="Descripción del modelo" auto-rotate camera-controls></model-viewer>
+          <model-viewer src="assets/3d/alex.glb" alt="Descripción del modelo" auto-rotate disable-zoom camera-controls></model-viewer>
           <div class="product-box"> <p>Nombre del producto</p></div>
         </div>
         <div class="col-md-3 product-item">
-          <model-viewer src="assets/3d/cantera.glb" alt="Descripción del modelo" auto-rotate camera-controls></model-viewer>
+          <model-viewer src="assets/3d/herradon.glb" alt="Descripción del modelo" auto-rotate disable-zoom camera-controls></model-viewer>
         </div>
       </div>
       <div class="row justify-content-center align-items-center">
         <div class="col-md-3 product-item">
-          <model-viewer src="assets/3d/cantera.glb" alt="Descripción del modelo" auto-rotate camera-controls></model-viewer>
+          <model-viewer src="assets/3d/mario.glb" alt="Descripción del modelo" auto-rotate disable-zoom camera-controls></model-viewer>
         </div>
         <div class="col-md-4 product-item">
-          <model-viewer src="assets/3d/cantera.glb" alt="Descripción del modelo" auto-rotate camera-controls></model-viewer>
+          <model-viewer src="assets/3d/jose.glb" alt="Descripción del modelo" auto-rotate disable-zoom camera-controls></model-viewer>
         </div>
         <div class="col-md-3 product-item">
-          <model-viewer src="assets/3d/cantera.glb" alt="Descripción del modelo" auto-rotate camera-controls></model-viewer>
+          <model-viewer src="assets/3d/gonzalo.glb" alt="Descripción del modelo" auto-rotate disable-zoom camera-controls></model-viewer>
         </div>
       </div>
       <div class="row justify-content-center align-items-center">
         <div class="col-md-3 product-item">
-          <model-viewer src="assets/3d/cantera.glb" alt="Descripción del modelo" auto-rotate camera-controls></model-viewer>
+          <model-viewer src="assets/3d/cantera.glb" alt="Descripción del modelo" auto-rotate disable-zoom camera-controls></model-viewer>
         </div>
         <div class="col-md-4 product-item">
-          <model-viewer src="assets/3d/cantera.glb" alt="Descripción del modelo" auto-rotate camera-controls></model-viewer>
+          <model-viewer src="assets/3d/cantera.glb" alt="Descripción del modelo" auto-rotate disable-zoom camera-controls></model-viewer>
         </div>
         <div class="col-md-3 product-item">
-          <model-viewer src="assets/3d/cantera.glb" alt="Descripción del modelo" auto-rotate camera-controls></model-viewer>
+          <model-viewer src="assets/3d/cantera.glb" alt="Descripción del modelo" auto-rotate disable-zoom camera-controls></model-viewer>
         </div>
       </div>
     </section>
@@ -92,8 +96,8 @@
           <script src="assets/js/three-cantera.js"></script>
 
           <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.3.0/model-viewer.min.js"></script>
-          <script type="module" src="https://unpkg.com/model-viewer@latest/dist/model-viewer.esm.min.js"></script>
-
+<!--           <script type="module" src="https://unpkg.com/model-viewer@latest/dist/model-viewer.esm.min.js"></script>
+ -->
 
           
         </body>
