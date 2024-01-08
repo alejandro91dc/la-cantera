@@ -194,7 +194,7 @@ color: var(--cantera-dark)!important;
 display: flex;
 flex-direction: column;
 width: 100%;
-height: 60em;
+height: 90em;
 padding-top: 1em;
 padding-bottom: 1em;
 align-items: center;
@@ -212,21 +212,45 @@ border-radius: 20px 20px 0 0;
 }
 
 #text-nosotros #contenido {
-width: 94%;
-height: 42em;
+width: 100%;
+height: 100em;
 margin-bottom: 3em;
 display: flex;
-border-width: 0 20px 20px 0;
 flex-direction: column;
+align-items: center;
 justify-content: center;
 padding-left: 2em;
 padding-right: 2em;
 }
 
-#text-nosotros #contenido .col p {
+#text-nosotros #contenido .row {
+width: 100%;
+height: 24em;
+display: flex;
+margin-top: 0.5em;
+margin-bottom: 0.5em;
+}
+
+#text-nosotros #contenido .row .col {
+display: flex;
+flex-direction: column;
+align-content: center;
+justify-content: center;
 font-size: 1.3em;
-  }
-  
+width: 30em;
+
+}
+
+#text-nosotros #contenido .row .col p {
+font-size: 1.1em;
+width: 26em;
+text-align: center;
+}
+
+
+#text-nosotros #contenido .col img {
+width: 18em;
+}
   
   
     /*--FIN DE EDICIÓN CAJAS DE TEXTO + IMÁGENES--*/
