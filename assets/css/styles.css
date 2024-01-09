@@ -758,20 +758,22 @@ model-viewer {
   height: 100vh; /* Altura fija, ajusta según sea necesario */
 }
 
+/*---------------------------------------------------------------------------------------*/
+
 /*--COMENZO DEL RESPONSIVE PARA IPAD PRO (1024 X 1366)--*/
 
 @media (max-width: 1024px) {
 
-/*------------------COMIENZO DEL INDEX------------------*/
+/*--------------------------COMIENZO DEL INDEX--------------------------*/
 
 
 
-/*------------------FINAL DEL INDEX------------------*/
+/*--------------------------FINAL DEL INDEX--------------------------*/
 
 
 
 
-/*------------------COMIENZO DEL ABOUT------------------*/
+/*--------------------------COMIENZO DEL ABOUT--------------------------*/
 
 /*--COMIENZO DE ANUNCIOS--*/
 
@@ -799,15 +801,43 @@ align-items: center;
 
 /*--FINAL EDICIÓN CAJAS DE TEXTO + IMÁGENES--*/
 
-/*----------------FINAL DEL ABOUT----------------*/
+/*------------------------FINAL DEL ABOUT------------------------*/
 
-/*----------------COMIENZO DE COLECCIÓN----------------*/
+/*------------------------COMIENZO DE COLECCIÓN------------------------*/
+
+#product-grid {
+margin-bottom: 3em;
+}
+
+#product-grid .row {
+display: flex;
+flex-direction: column;
+}
+
+#product-grid .product-item {
+  border: solid 1px #fff;
+  width: 800px;
+  height: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
 
 
+#product-grid .product-item {
+  border: solid 1px #fff;
+  width: 800px;
+  height: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
 
-/*----------------FINAL DE COLECCIÓN----------------*/
+/*------------------------FINAL DE COLECCIÓN------------------------*/
 
-/*----------------COMIENZO DE EVENTOS----------------*/
+/*------------------------COMIENZO DE EVENTOS------------------------*/
 
 /*--COMIENZO LIBRE + SPITFIRE--*/
 
@@ -823,6 +853,7 @@ background-size: cover;
 margin-right: 5%;
 width: 57em;
 }
+
 
 /*--FINAL LIBRE + SPITFIRE--*/
 
@@ -855,11 +886,13 @@ padding-left: 2em;
 /*--FINAL DE OTROS EVENTOS--*/
 
 
-/*----------------FINAL DE EVENTOS----------------*/
+/*------------------------FINAL DE EVENTOS------------------------*/
 
 }
 
 /*--FINAL DEL RESPONSIVE PARA IPAD--*/
+
+/*---------------------------------------------------------------------------------------*/
 
 /*--COMENZO DEL RESPONSIVE PARA MOVIL (430 X 932)--*/
 
