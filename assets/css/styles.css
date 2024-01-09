@@ -352,6 +352,16 @@ width: 30em;
   right: 0;
 }
 
+/* Contact */
+
+#Contact {
+  padding: 5%;
+}
+
+form {
+  width: 45%;
+}
+
   /*Animejs*/
 .intro-text {
   box-sizing: border-box;
@@ -677,3 +687,4 @@ model-viewer {
   width: 100%; /* Ancho del 100% del contenedor padre */
   height: 100vh; /* Altura fija, ajusta según sea necesario */
 }
+
