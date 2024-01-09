@@ -34,84 +34,127 @@
     
     <div id="headerContainer" class="index"></div>
 
-<body>
-<div class="fondocontacto">
-    <div class="color-overlay d-flex justify-content-center align-items-center">
-      
-     <div id="subscripcion">
+    <form>
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Nombre</label>
+        <input type="name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+      </div>
+      </form>
 
-            <form class="row g-3 needs-validation" novalidate>
-        
-                <div id="move" style="width: 50rem;">
-                
-                    <h1>SUBSCRIPCIÓN</h1>
-        
-                <div class="col-md-4" style="opacity: 100%;">
-                  <label for="validationCustom01" class="form-label">Nombre</label>
-                  <input type="text" class="form-control" id="validationCustom01" value="Pepito" required>
-                  <div class="valid-feedback">
-                    Suena bien!
-                  </div>
-                </div>
-                <div class="col-md-4">
-                  <label for="validationCustom02" class="form-label">Apellidos</label>
-                  <input type="text" class="form-control" id="validationCustom02" value="Palo" required>
-                  <div class="valid-feedback">
-                    Suena bien!
-                  </div>
-                </div>
-                <div class="col-md-4">
-                  <label for="validationCustomUsername" class="form-label">Usuario</label>
-                  <div class="input-group has-validation">
-                    <span class="input-group-text" id="inputGroupPrepend">@</span>
-                    <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
-                    <div class="invalid-feedback">
-                      Por favor elija un nombre de usuario.
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-4">
-                  <label for="validationCustom03" class="form-label">Ciudad</label>
-                  <input type="text" class="form-control" id="validationCustom03" required>
-                  <div class="invalid-feedback">
-                    Por favor elija una ciudad válida.
-                  </div>
-                </div>
-                <div class="col-md-4">
-                  <label for="validationCustom04" class="form-label">Municipio</label>
-                  <select class="form-select" id="validationCustom04" required>
-                    <option selected disabled value="">Elija...</option>
-                    <option>...</option>
-                  </select>
-                  <div class="invalid-feedback">
-                    Por favor elija un municipio válido.
-                  </div>
-                </div>
-                <div class="col-md-4">
-                  <label for="validationCustom05" class="form-label">Zip</label>
-                  <input type="text" class="form-control" id="validationCustom05" required>
-                  <div class="invalid-feedback">
-                    Por favor elija un zip válido.
-                  </div>
-                </div>
-                <div class="col-12">
-                  <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
-                    <label class="form-check-label" for="invalidCheck">
-                      Estoy de acuerdo con los términos y condiciones de uso.
-                    </label>
-                    <div class="invalid-feedback">
-                      Debes estar de acuerdo con los términos y condiciones de uso para continuar.
-                    </div>
-                  </div>
-                </div>
-                <div class="button">
-                  <button class="btn btn-outline-warning" type="submit">Aceptar</button>
-                </div>
-             </div>
-            </form>
+      <form>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Apellido</label>
+          <input type="surname" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
         </div>
+        </form>
 
+  <form>
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">Correo</label>
+      <input type="email" class="form-control" id="exampleInputEmail3" aria-describedby="emailHelp">
+      <div id="emailHelp" class="form-text">No compartiremos tu correo electrónico con nadie más.</div>
+    </div>
+    </form>
+
+    <form>
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">País</label>
+      <select class="form-select form-select-lg mb-3" aria-label="Large select example">
+        <option selected>España</option>
+        <option value="1">Alemania</option>
+        <option value="2">Bélgica</option>
+        <option value="3">Croacia</option>
+        <option value="4">Dinamarca</option>
+        <option value="6">Francia</option>
+        <option value="7">Irlanda</option>
+        <option value="8">Letonia</option>
+        <option value="9">Luxemburgo</option>
+        <option value="10">Países Bajos</option>
+        <option value="11">Suecia</option>
+        <option value="12">Bulgaria</option>
+        <option value="13">Eslovaquia</option>
+        <option value="14">Estonia</option>
+        <option value="15">Grecia</option>
+        <option value="16">Malta</option>
+        <option value="17">Polonia</option>
+        <option value="18">República Checa</option>
+        <option value="19">Austria</option>
+        <option value="20">Chipre</option>
+        <option value="21">Eslovenia</option>
+        <option value="22">Finlandia</option>
+        <option value="23">Hungría</option>
+        <option value="24">Italia</option>
+        <option value="25">Lituania</option>
+        <option value="26">Portugal</option>
+        <option value="27">Rumanía</option>
+      </select>
+      </div>
+    </form>
+
+    <form>
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Ciudad</label>
+      <select class="form-select form-select-lg mb-3" aria-label="Large select example">
+        <option selected>Buscar</option>
+        <option value="1">A Coruña</option>
+        <option value="2">Alava</option>
+        <option value="3">Albacete</option>
+        <option value="4">Almería</option>
+        <option value="5">Asturias</option>
+        <option value="6">Avila</option>
+        <option value="7">Badajoz</option>
+        <option value="8">Barcelona</option>
+        <option value="9">Burgos</option>
+        <option value="10">Cádiz</option>
+        <option value="11">Cantabria</option>
+        <option value="12">Castellón</option>
+        <option value="13">Córdoba</option>
+        <option value="14">Girona</option>
+        <option value="15">Granada</option>
+        <option value="16">Guadalajara</option>
+        <option value="17">Huelva</option>
+        <option value="18">Huesca</option>
+        <option value="19">Ibiza</option>
+        <option value="20">Jaén</option>
+        <option value="21">La Rioja</option>
+        <option value="22">León</option>
+        <option value="23">Madrid</option>
+        <option value="24">Málaga</option>
+        <option value="25">Mallorca</option>
+        <option value="26">Menorca</option>
+        <option value="27">Murcia</option>
+        <option value="28">Navarra</option>
+        <option value="29">Orense</option>
+        <option value="30">Palencia</option>
+        <option value="31">Pontevedra</option>
+        <option value="32">Salamanca</option>
+        <option value="33">Segovia</option>
+        <option value="34">Sevilla</option>
+        <option value="35">Tarragona</option>
+        <option value="36">Toledo</option>
+        <option value="37">Valencia</option>
+        <option value="38">Valladolid</option>
+        <option value="39">Vizcaya</option>
+        <option value="40">Zamora</option>
+        <option value="41">Zaragoza</option>
+      </select>
+      </div>
+    </form>
+
+    <form>
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Calle</label>
+        <input type="name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+      </div>
+      </form>
+
+      <form>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Domicilio</label>
+          <input type="name" class="form-control" id="exampleInputEmail1">
+        </div>
+        </form>
+    
     </div>
     </div>
     <div id="footerContainer" class="index"></div>
