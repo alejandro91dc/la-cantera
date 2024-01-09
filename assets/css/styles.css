@@ -295,7 +295,7 @@ width: 30em;
     flex-direction: column;
   }
 
-  #product-grid .product-item model-viewer{
+  #product-grid .product-item {
     height: 600px;
   }
 
@@ -766,12 +766,16 @@ model-viewer {
 
 /*--------------------------COMIENZO DEL INDEX--------------------------*/
 
+.d-md-flex {
+flex-direction: column;
+}
+
+.d-md-flex .intro-text {
+height: 15em;
+}
 
 
 /*--------------------------FINAL DEL INDEX--------------------------*/
-
-
-
 
 /*--------------------------COMIENZO DEL ABOUT--------------------------*/
 
@@ -804,6 +808,11 @@ align-items: center;
 /*------------------------FINAL DEL ABOUT------------------------*/
 
 /*------------------------COMIENZO DE COLECCIÓN------------------------*/
+
+
+#product-text {
+width: 600px;
+}
 
 #product-grid {
 margin-bottom: 3em;
