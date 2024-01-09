@@ -762,13 +762,16 @@ model-viewer {
 
 @media (max-width: 1024px) {
 
-/*----------COMIENZO DEL INDEX----------*/
+/*------------------COMIENZO DEL INDEX------------------*/
 
 
 
-/*----------FINAL DEL INDEX----------*/
+/*------------------FINAL DEL INDEX------------------*/
 
-/*----------COMIENZO DEL ABOUT----------*/
+
+
+
+/*------------------COMIENZO DEL ABOUT------------------*/
 
 /*--COMIENZO DE ANUNCIOS--*/
 
@@ -796,7 +799,63 @@ align-items: center;
 
 /*--FINAL EDICIÓN CAJAS DE TEXTO + IMÁGENES--*/
 
-/*--------FINAL DEL ABOUT--------*/
+/*----------------FINAL DEL ABOUT----------------*/
+
+/*----------------COMIENZO DE COLECCIÓN----------------*/
+
+
+
+/*----------------FINAL DE COLECCIÓN----------------*/
+
+/*----------------COMIENZO DE EVENTOS----------------*/
+
+/*--COMIENZO LIBRE + SPITFIRE--*/
+
+#event-libertino { 
+background-image: url(/assets/img/evento\ 1.jpg); 
+background-size: cover; 
+margin-right: 5%;
+width:57em;
+}
+#event-spitfire { 
+background-image: url(/assets/img/evento\ 2.jpg); 
+background-size: cover; 
+margin-right: 5%;
+width: 57em;
+}
+
+/*--FINAL LIBRE + SPITFIRE--*/
+
+/*--COMIENZO DE OTROS EVENTOS--*/
+
+#evento-desc .row{
+padding-top: 3em;
+padding-left: 2em;
+}
+
+#event-flow { 
+  width: 27%;
+  background-image: url(/assets/img/evento\ 3.jpg); 
+  background-size: cover; 
+  margin-right: 5%;
+}
+#event-identity { 
+  width: 27%;
+  background-image: url(/assets/img/evento\ 4.jpg); 
+  background-size: cover; 
+  margin-right: 5%;
+}
+#event-sura { 
+  width: 27%;
+  background-image: url(/assets/img/evento\ 5.jpg); 
+  background-size: cover; 
+  margin-right: 5%;
+}
+
+/*--FINAL DE OTROS EVENTOS--*/
+
+
+/*----------------FINAL DE EVENTOS----------------*/
 
 }
 
