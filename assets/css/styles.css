@@ -352,11 +352,16 @@ width: 30em;
   right: 0;
 }
 
-/* Contact */
+/* CONTACT */
+
+#Container {
+  background-color: chartreuse;
+}
 
 #Contact {
   padding: 5%;
-  margin-left: 10%;
+  background-color: crimson;
+  width: 50%;
 }
 
 input, input:focus, select{
@@ -370,7 +375,6 @@ input, input:focus, select{
 }
 
 form {
-  width: 45%;
   margin-top: 1%;
 }
 
@@ -383,15 +387,20 @@ form {
   display: flex;
 }
 
-.Calle {
-  width: 60%;
-  margin-top: -2%;
+#Calle {
+  width: 65%;
 }
 
+.Calle {
+  margin-top: -1%;
+}
+
+
+
 .Domicilio {
-  width: 8%;
-  margin-top: 3.4%;
-  margin-left: -35.1%;
+  width: 25%;
+  margin-top: 14%;
+  margin-left: 6%;
 }
 
   /*Animejs*/
