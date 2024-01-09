@@ -450,7 +450,7 @@ width: 30em;
     padding: 2em;
     position: absolute;
     z-index: 2;
-}
+}⁄
 .t-a{
   bottom: -5%;
   right: -5%;
@@ -896,6 +896,28 @@ padding-left: 2em;
 
 
 /*------------------------FINAL DE EVENTOS------------------------*/
+
+/*------------------------COMIENZO DE CANTERANOS------------------------*/
+
+#ccc {
+  height: 50vh!important;
+  display: flex;
+  flex-direction: column;
+}
+
+/*------------------------FINAL DE CANTERANOS------------------------*/
+
+/*------------------------COMIENZO DE BLOG------------------------*/
+
+
+
+/*------------------------FINAL DE BLOG------------------------*/
+
+/*------------------------COMIENZO CONTACTO------------------------*/
+
+
+
+/*------------------------FINAL DE CONTACTO------------------------*/
 
 }
 
