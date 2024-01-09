@@ -275,7 +275,7 @@ margin-bottom: 2em;
 
 .container1 .row {
 border-width: 20px 20px 0 0;
-width: 80%;
+width: 90%;
 margin-top: 2em;
 margin-bottom: 2em;
 }
@@ -283,6 +283,10 @@ margin-bottom: 2em;
 .container1 .row .col {
 margin: 2em;
 }
+
+.container1 .row .col p {
+font-size: 1.6em;
+  }
 
 .container1 .row .col img {
 width: 30em;
