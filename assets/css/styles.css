@@ -356,10 +356,37 @@ width: 30em;
 
 #Contact {
   padding: 5%;
+  margin-left: 10%;
+}
+
+input, select{
+  border: 1px solid var(--cantera-yellow)!important;
+  background-color: var(--cantera-dark)!important;
 }
 
 form {
   width: 45%;
+  margin-top: 1%;
+}
+
+#Worldwide {
+  width: 73%;
+}
+
+
+#Direccion {
+  display: flex;
+}
+
+.Calle {
+  width: 60%;
+  margin-top: -2%;
+}
+
+.Domicilio {
+  width: 8%;
+  margin-top: 3.4%;
+  margin-left: -35.1%;
 }
 
   /*Animejs*/
