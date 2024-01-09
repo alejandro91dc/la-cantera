@@ -760,7 +760,7 @@ model-viewer {
 
 /*--COMENZO DEL RESPONSIVE PARA IPAD PRO (1024 X 1366)--*/
 
-@media (max-whidth: 1024px) {
+@media (max-width: 1024px) {
 
 /*----------COMIENZO DEL ABOUT----------*/
 
@@ -789,7 +789,7 @@ flex-direction: column;
 
 /*--COMENZO DEL RESPONSIVE PARA MOVIL (430 X 932)--*/
 
-@media (max-whidth: 430px) {
+@media (max-width: 430px) {
 
 }
 
