@@ -359,9 +359,14 @@ width: 30em;
   margin-left: 10%;
 }
 
-input, select{
+input, input:focus, select{
   border: 1px solid var(--cantera-yellow)!important;
   background-color: var(--cantera-dark)!important;
+  color: #FFF!important;
+}
+
+::placeholder, select, option {
+  color: rgba(255, 255, 255, 0.401)!important;
 }
 
 form {
