@@ -917,22 +917,23 @@ width: 57em;
 #evento-desc .row{
 padding-top: 3em;
 padding-left: 2em;
+flex-direction: column;
 }
 
 #event-flow { 
-  width: 27%;
+  width: 50%;
   background-image: url(/assets/img/evento\ 3.jpg); 
   background-size: cover; 
   margin-right: 5%;
 }
 #event-identity { 
-  width: 27%;
+  width: 50%;
   background-image: url(/assets/img/evento\ 4.jpg); 
   background-size: cover; 
   margin-right: 5%;
 }
 #event-sura { 
-  width: 27%;
+  width: 50%;
   background-image: url(/assets/img/evento\ 5.jpg); 
   background-size: cover; 
   margin-right: 5%;
