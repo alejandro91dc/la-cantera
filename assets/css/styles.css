@@ -1165,27 +1165,36 @@ padding-top: 0.7em;
 
 /*--COMIENZO IMAGEN + CARD--*/
 
-#img-magic {
-background-color: aqua;
+.container-fluid #img-magic {
+width: 100%;
 height: 100%;
+background-color: #D3CDC6;
+align-content: center;
 }
 
 #img-magic .row {
-flex-direction: column;
-align-items: center;
-}
-
-#img-magic .row {
-flex-direction: column;
-align-items: center;
+background-color: aqua;
+width: 100%;
+height: 80%;
 }
 
 #img-magic .row .col-4 {
-width: 900px;
-height: 200px;
-margin-bottom: 4em;
+width: 32%;
+height: 20%;
+flex-direction: column;
+flex-direction: row;
+align-items: center;
 }
 
+
+#img-magic .row .col-4 .intro-img {
+
+}
+
+#img-magic .row .col-4 .intro-img .yellow-block {
+  width: 500px;
+  height: 300px;
+  }
 
 /*--FINAL DE IMAGEN + CARDS--*/
 
@@ -1230,7 +1239,6 @@ width: 100%;
 display: flex;
 flex-direction: column;
 align-items: center;
-
 }
 
 #Worldwide {
@@ -1276,6 +1284,336 @@ width: 25%;
 
 @media (max-width: 430px) {
 
-}
+/*--------------------------COMIENZO DEL INDEX--------------------------*/
+
+/*--IMAGEN + TEEXTO--*/
+
+.d-md-flex {
+  flex-direction: column;
+  }
+
+  .d-md-flex .intro-img {
+  width: 100%;
+height: 450px;
+  }
+  
+  .d-md-flex .intro-text {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 500px;
+  justify-content: center;
+  }
+  
+  
+  /*--COMIENZO DE TEXTOS--*/
+  
+  #textos .row {
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1em;
+  }
+  
+  #textos .row .col-6 {
+  width: 700px;
+  height: 325px;
+  font-size: 1.4em!important;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  }
+  
+  /*--FINAL DE TEXTOS--*/
+  
+  
+  /*--------------------------FINAL DEL INDEX--------------------------*/
+  
+  /*--------------------------COMIENZO DEL ABOUT--------------------------*/
+  
+  /*--COMIENZO DE ANUNCIOS--*/
+  
+  #anuncios .row {
+  text-align: center;
+  align-content: center;
+  width: 80%;
+  height: 100%;
+  flex-direction: column;
+  }
+  
+  /*--FINAL DE ANUNCIOS--*/
+  
+  /*--COMIENNZO EDICIÓN CAJAS DE TEXTO + IMÁGENES--*/
+  
+  .container1 .row {
+  display: flex;
+  flex-direction: column;
+  border-width: 20px 20px 0 0;
+  width: 90%;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  align-items: center;
+  }
+  
+  /*--FINAL EDICIÓN CAJAS DE TEXTO + IMÁGENES--*/
+  
+  /*------------------------FINAL DEL ABOUT------------------------*/
+  
+  /*------------------------COMIENZO DE COLECCIÓN------------------------*/
+  
+  
+  
+  #product-text {
+  width: 100%;
+  }
+  
+  #product-text .col-md-3 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  }
+  
+  #product-text #miCanvas {
+  width: 700px;
+  height: 800px;
+  }
+  
+  #product-text #shoe {
+  width: 700px;
+  height: 800px;
+  }
+  
+  #product-grid {
+  margin-bottom: 3em;
+  }
+  
+  #product-grid .row {
+  display: flex;
+  flex-direction: column;
+  }
+  
+  #product-grid .product-item {
+    border: solid 1px #fff;
+    width: 800px;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  
+  #product-grid .product-item {
+    border: solid 1px #fff;
+    width: 800px;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  /*------------------------FINAL DE COLECCIÓN------------------------*/
+  
+  /*------------------------COMIENZO DE EVENTOS------------------------*/
+  
+  /*--COMIENZO LIBRE + SPITFIRE--*/
+  
+  #evento-desc {
+  margin-left: 4em;
+    }
+  
+  
+  #event-libertino { 
+  background-image: url(/assets/img/evento\ 1.jpg); 
+  background-size: cover; 
+  width: 80%;
+  }
+  #event-spitfire { 
+  background-image: url(/assets/img/evento\ 2.jpg); 
+  background-size: cover; 
+  width: 80%;
+  }
+  
+  
+  /*--FINAL LIBRE + SPITFIRE--*/
+  
+  /*--COMIENZO DE OTROS EVENTOS--*/
+  
+  #evento-desc .row{
+  padding-top: 3em;
+  padding-left: 2em;
+  flex-direction: column;
+  }
+  
+  #event-flow { 
+    width: 50%;
+    background-image: url(/assets/img/evento\ 3.jpg); 
+    background-size: cover; 
+   
+  }
+  #event-identity { 
+    width: 50%;
+    background-image: url(/assets/img/evento\ 4.jpg); 
+    background-size: cover; 
+    
+  }
+  #event-sura { 
+    width: 50%;
+    background-image: url(/assets/img/evento\ 5.jpg); 
+    background-size: cover; 
+  
+  }
+  
+  /*--FINAL DE OTROS EVENTOS--*/
+  
+  
+  /*------------------------FINAL DE EVENTOS------------------------*/
+  
+  /*------------------------COMIENZO DE CANTERANOS------------------------*/
+  
+  /*--COMIENZO DE BOTON/CARD--*/
+  
+  #c-text {
+  width: 100%;
+  height: 900px;
+  }
+  
+  #c-text .row {
+  flex-direction: column;
+  width: 100%;
+  height: 50em;
+  align-items: center;
+  }
+  
+  #c-text .row .col {
+  height: 100%;
+  }
+  
+  #c-text .row .col h2 {
+  width: 100%;
+  height: 50%;
+  text-align: center;
+  padding-top: 0.7em;
+  }
+  
+  /*--#c-text .row .col .content-box {
+  
+  }--*/
+  
+  /*--FINAL DE BOTON/CARD--*/
+  
+  /*--COMIENZO IMAGEN + CARD--*/
+  
+  .container-fluid #img-magic {
+  width: 100%;
+  height: 100%;
+  background-color: #D3CDC6;
+  align-content: center;
+  }
+  
+  #img-magic .row {
+  background-color: aqua;
+  width: 100%;
+  height: 80%;
+  }
+  
+  #img-magic .row .col-4 {
+  width: 32%;
+  height: 20%;
+  flex-direction: column;
+  flex-direction: row;
+  align-items: center;
+  }
+  
+  
+  #img-magic .row .col-4 .intro-img {
+  
+  }
+  
+  #img-magic .row .col-4 .intro-img .yellow-block {
+    width: 500px;
+    height: 300px;
+    }
+  
+  /*--FINAL DE IMAGEN + CARDS--*/
+  
+  /*------------------------FINAL DE CANTERANOS------------------------*/
+  
+  /*------------------------COMIENZO DE BLOG------------------------*/
+  
+  /*--lo dejamos pendiente--*/
+  
+  /*------------------------FINAL DE BLOG------------------------*/
+  
+  /*------------------------COMIENZO CONTACTO------------------------*/
+  
+  /*--COMIENZO DEL APARTADO GENERAL--*/
+  
+  #Container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
+  
+  /*--FINAL DEL APARTADO GENERAL--*/
+  
+  /*--COMIENZO DE PIEZAS POR SEPARADO--*/
+  
+  .Cuadrado {
+  width: 80%;
+  height: 50em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+  }
+  
+  /*--DIVISIÓN ENTRE CONTACTO Y GENERAL (CUADRADO)--*/
+  
+  #Contact {
+  border: none;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
+  
+  #Worldwide {
+    width: 73%;
+  }
+  
+  #Direccion {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  }
+  
+  #Direccion #Domicilio {
+  justify-content: end;
+  }
+  
+  #Calle {
+  width: 51%;
+  }
+  
+  
+  #Domicilio {
+  display: flex;
+  justify-content: center;
+  
+  }
+  
+  .Domicilio {
+  width: 25%;
+  }
+  
+  /*--FINAL DE PIEZAS POR SEPARADO--*/
+  
+  /*------------------------FINAL DE CONTACTO------------------------*/
+  
+  }
+
+
 
 /*--FINAL DEL RESPONSIVE PARA MOVIL--*/
