@@ -1079,17 +1079,22 @@ flex-direction: column;
 
 /*--COMIENZO LIBRE + SPITFIRE--*/
 
+#evento-desc {
+margin-left: 4em;
+  }
+
+
 #event-libertino { 
 background-image: url(/assets/img/evento\ 1.jpg); 
 background-size: cover; 
 margin-right: 5%;
-width:57em;
+width:50em;
 }
 #event-spitfire { 
 background-image: url(/assets/img/evento\ 2.jpg); 
 background-size: cover; 
 margin-right: 5%;
-width: 57em;
+width: 50em;
 }
 
 
