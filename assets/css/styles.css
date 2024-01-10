@@ -957,6 +957,7 @@ height: 700px;
 background-color: #D3CDC6;
 flex-direction: column;
 height: 200%;
+align-items: center;
 }
 
 /*--FINAL DE BOTON/CARD--*/
@@ -965,7 +966,7 @@ height: 200%;
 
 #img-magic {
 background-color: aqua;
-height: 85%;
+height: 100%;
 }
 
 #img-magic .row {
@@ -978,7 +979,11 @@ flex-direction: column;
 align-items: center;
 }
 
-#img-magic .row
+#img-magic .row .col-4 {
+width: 800px;
+height: 700px;
+margin-bottom: 4em;
+}
 
 
 /*--FINAL DE IMAGEN + CARDS--*/
