@@ -1139,13 +1139,13 @@ flex-direction: column;
 #c-text {
 background-color: aqua;
 width: 100%;
-height: 700px;
+height: 800px;
 }
 
 #c-text .row {
-background-color: #D3CDC6;
 flex-direction: column;
-height: 200%;
+width: 100%;
+height: 100%;
 align-items: center;
 }
 
@@ -1170,7 +1170,7 @@ align-items: center;
 
 #img-magic .row .col-4 {
 width: 800px;
-height: 700px;
+height: 200px;
 margin-bottom: 4em;
 }
 
@@ -1196,7 +1196,6 @@ align-items: center;
 
 #Contact {
 border: none;
-
 }
 
 /*------------------------FINAL DE CONTACTO------------------------*/
