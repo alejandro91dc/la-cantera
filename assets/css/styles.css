@@ -1175,15 +1175,15 @@ align-content: center;
 #img-magic .row {
 background-color: aqua;
 width: 100%;
-height: 80%;
+height: 100%;
+justify-content: center;
 }
 
 #img-magic .row .col-4 {
-width: 32%;
-height: 20%;
+width: 29rem;
+height: 20rem;
 flex-direction: column;
 flex-direction: row;
-align-items: center;
 }
 
 
