@@ -426,7 +426,7 @@ width: 30em;
     transition: 0.5s;
   }
   .c-box-contact:hover h2 {
-    color: var(--cantera-yellow)!important;
+    color: white!important;
     transition: 0.5s;
     position: relative;
   }
