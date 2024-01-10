@@ -470,7 +470,7 @@ width: 30em;
   border-width: 0 5px 0 0 ;
   margin-top: 2%;
   margin-bottom: 2%;
-  margin-left: 2%;
+
 }
 
 input, input:focus, select{
@@ -1208,28 +1208,59 @@ flex-direction: column;
 align-items: center;
 }
 
-#Contact {
-border: none;
-}
-
 /*--FINAL DEL APARTADO GENERAL--*/
 
 /*--COMIENZO DE PIEZAS POR SEPARADO--*/
 
 .Cuadrado {
-  width: 80%;
-  height: 50em;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-top: 5%;
-  }
+width: 80%;
+height: 50em;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-top: 5%;
+}
 
-  /*----*/
-  
+/*--DIVISIÓN ENTRE CONTACTO Y GENERAL (CUADRADO)--*/
+
+#Contact {
+border: none;
+width: 100%;
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+
+#Worldwide {
+  width: 73%;
+}
+
+#Direccion {
+display: flex;
+justify-content: center;
+width: 100%;
+}
+
+#Direccion #Domicilio {
+justify-content: end;
+}
+
+#Calle {
+width: 51%;
+}
 
 
+#Domicilio {
+display: flex;
+justify-content: center;
+
+}
+
+.Domicilio {
+width: 25%;
+}
 
 /*--FINAL DE PIEZAS POR SEPARADO--*/
 
