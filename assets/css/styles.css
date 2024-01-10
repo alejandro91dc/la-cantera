@@ -1142,9 +1142,24 @@ height: 900px;
 #c-text .row {
 flex-direction: column;
 width: 100%;
-height: 100%;
+height: 50em;
 align-items: center;
 }
+
+#c-text .row .col {
+height: 100%;
+}
+
+#c-text .row .col h2 {
+width: 100%;
+height: 50%;
+text-align: center;
+padding-top: 0.7em;
+}
+
+/*--#c-text .row .col .content-box {
+
+}--*/
 
 /*--FINAL DE BOTON/CARD--*/
 
@@ -1178,11 +1193,13 @@ margin-bottom: 4em;
 
 /*------------------------COMIENZO DE BLOG------------------------*/
 
-
+/*--lo dejamos pendiente--*/
 
 /*------------------------FINAL DE BLOG------------------------*/
 
 /*------------------------COMIENZO CONTACTO------------------------*/
+
+/*--COMIENZO DEL APARTADO GENERAL--*/
 
 #Container {
 width: 100%;
@@ -1194,6 +1211,27 @@ align-items: center;
 #Contact {
 border: none;
 }
+
+/*--FINAL DEL APARTADO GENERAL--*/
+
+/*--COMIENZO DE PIEZAS POR SEPARADO--*/
+
+.Cuadrado {
+  width: 80%;
+  height: 50em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+  }
+
+  /*----*/
+  
+
+
+
+/*--FINAL DE PIEZAS POR SEPARADO--*/
 
 /*------------------------FINAL DE CONTACTO------------------------*/
 
