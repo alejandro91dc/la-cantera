@@ -1447,10 +1447,6 @@ width: 100%;
   
   /*--COMIENZO LIBRE + SPITFIRE--*/
   
-  #evento-desc {
-  margin-left: 4em;
-    }
-  
   
   #event-libertino { 
   background-image: url(/assets/img/evento\ 1.jpg); 
@@ -1471,6 +1467,7 @@ width: 100%;
   #evento-desc .row{
   padding-top: 3em;
   padding-left: 2em;
+  width: 100%;
   flex-direction: column;
   }
   
