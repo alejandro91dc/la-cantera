@@ -318,8 +318,8 @@ width: 30em;
   position: absolute;
   height: 300px;
   width: 800px;
-  z-index: 12;
-  top: 35em;
+  z-index: 12px;
+  top: 15em;
   left: 7em;
   text-align: right;
   transform: rotate(16deg);
@@ -1187,7 +1187,17 @@ margin-bottom: 4em;
 
 /*------------------------COMIENZO CONTACTO------------------------*/
 
+#Container {
+width: 100%;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
 
+#Contact {
+border: none;
+
+}
 
 /*------------------------FINAL DE CONTACTO------------------------*/
 
