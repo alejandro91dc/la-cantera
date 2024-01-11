@@ -23,10 +23,10 @@ border-color: aliceblue;
 }
 
 .site-header a {
-  color: #231c1c;
+  color: #ffffff9e;
   transition: color .15s ease-in-out;
   text-decoration: none;
-  height: auto!important;
+  height: 40px;
 
 }
 .site-header a:hover {
