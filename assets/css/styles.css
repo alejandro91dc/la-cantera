@@ -35,6 +35,14 @@ body, p {
 
 }
 
+.btn-warning {
+  background-color: var(--cantera-yellow)!important;
+}
+.btn-warning:hover {
+  background-color: #fff!important;
+  color: #000!important;
+}
+
 #cabecera {
 
     height: 100vh;
