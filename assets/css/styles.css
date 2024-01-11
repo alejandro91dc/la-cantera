@@ -1659,21 +1659,38 @@ width: 100%;
 
 #footerContainer {
 display: flex;
+align-items: center;
+align-content: center;
 }
+
+#footerContainer .row {
+display: flex;
+flex-direction: column;
+flex-direction: row;
+align-content: center;
+margin-right: 2em;
+}
+
 
 #footerContainer .col-2 {
 margin-left: 1em;
 margin-right: 1em;
 }
 
+#footerContainer h1 {
+margin-left: 2em;
+  }
+
 #footerContainer h5 {
 font-size: 0.7em;
-padding: 1em;
+padding-bottom: 1em;
 width: 90px;
+text-align: center;
 }
+
 #footerContainer a {
-background-color: #D3CDC6;
-font-size: 0.6em;
+color: var(--cantera-dark)!important;
+font-size: 0.5em;
 }
 
     /*------------------------FINAL DEL FOOTER------------------------*/
