@@ -1350,7 +1350,6 @@ padding-right: 1em;
   
 #anuncios {
 display: flex;
-background-color: aliceblue;
 width: 100%;
 }
 
@@ -1359,7 +1358,6 @@ width: 100%;
   width: 60%;
   height: 100%;
   flex-direction: column;
-  background-color: #D3CDC6;
   }
   
   /*--FINAL DE ANUNCIOS--*/
@@ -1656,8 +1654,31 @@ width: 100%;
   /*--FINAL DE PIEZAS POR SEPARADO--*/
   
   /*------------------------FINAL DE CONTACTO------------------------*/
+
+   /*------------------------COMIENZO DEL FOOTER------------------------*/
+
+#footerContainer {
+display: flex;
+}
+
+#footerContainer .col-2 {
+margin-left: 1em;
+margin-right: 1em;
+}
+
+#footerContainer h5 {
+font-size: 0.7em;
+padding: 1em;
+width: 90px;
+}
+#footerContainer a {
+background-color: #D3CDC6;
+font-size: 0.6em;
+}
+
+    /*------------------------FINAL DEL FOOTER------------------------*/
   
-  }
+
 
 
 
