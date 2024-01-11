@@ -542,7 +542,7 @@ h1 {
   width: 20%;
 }
 
-.intro-img {
+.intro-img, .main-intro-img {
   position: relative;
   margin: auto;
   line-height: 160px;
