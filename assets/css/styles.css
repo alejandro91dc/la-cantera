@@ -1453,49 +1453,63 @@ width: 100%;
   /*------------------------COMIENZO DE EVENTOS------------------------*/
   
   /*--COMIENZO LIBRE + SPITFIRE--*/
+
   
+  #evento-desc {
+    width: 80%;
+   background-color: aquamarine;
+   display: flex;
+   flex-direction: column;
+   margin-right: 3em;
+  }
   
   #event-libertino { 
   background-image: url(/assets/img/evento\ 1.jpg); 
   background-size: cover; 
-  width: 80%;
+  width: 300px;
   }
   #event-spitfire { 
   background-image: url(/assets/img/evento\ 2.jpg); 
   background-size: cover; 
-  width: 80%;
+  width: 300px;
   }
   
   
   /*--FINAL LIBRE + SPITFIRE--*/
   
   /*--COMIENZO DE OTROS EVENTOS--*/
-  
+#cabecera {
+align-content: center;
+}
+
+
   #evento-desc .row{
   padding-top: 3em;
   padding-left: 2em;
-  width: 100%;
+  width: 335px;
   flex-direction: column;
-
+  background-color: aqua;
   }
   
   #event-flow { 
-    width: 50%;
+    width: 80%;
     background-image: url(/assets/img/evento\ 3.jpg); 
     background-size: cover; 
+  
    
   }
   #event-identity { 
-    width: 50%;
+    width: 80%;
     background-image: url(/assets/img/evento\ 4.jpg); 
     background-size: cover; 
     
+    
   }
   #event-sura { 
-    width: 50%;
+    width: 80%;
     background-image: url(/assets/img/evento\ 5.jpg); 
     background-size: cover; 
-  
+    
   }
   
   /*--FINAL DE OTROS EVENTOS--*/
@@ -1557,11 +1571,6 @@ width: 100%;
   flex-direction: column;
   flex-direction: row;
   align-items: center;
-  }
-  
-  
-  #img-magic .row .col-4 .intro-img {
-  
   }
   
   #img-magic .row .col-4 .intro-img .yellow-block {
@@ -1696,7 +1705,7 @@ font-size: 0.5em;
     /*------------------------FINAL DEL FOOTER------------------------*/
   
 
-
+}
 
 
 /*--FINAL DEL RESPONSIVE PARA MOVIL--*/
