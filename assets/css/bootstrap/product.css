@@ -12,6 +12,11 @@
   backdrop-filter: saturate(180%) blur(20px);
 }
 
+.site-header .container-fluid .navbar-toggler-icon {
+border-color: blue;
+border-width: em;
+}
+
 .site-header .container-fluid {
   max-width: 960px;
 }
