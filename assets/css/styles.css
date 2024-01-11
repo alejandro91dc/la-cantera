@@ -1431,6 +1431,7 @@ width: 100%;
   
   #product-grid {
   margin-bottom: 3em;
+
   width: 380px;
   }
   
@@ -1597,12 +1598,22 @@ width: 100%;
   
   .Cuadrado {
   width: 80%;
-  height: 50em;
+  height: 50%;
+  margin-bottom: 1.5em;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
   margin-top: 5%;
+  }
+
+  .cuadrado .row {
+ display: flex;
+ flex-direction: column;
+0
+  }
+
+  .Cuadrado .row .col {
+  width: 100%;
+  height: 59%;
   }
   
   /*--DIVISIÓN ENTRE CONTACTO Y GENERAL (CUADRADO)--*/
@@ -1625,23 +1636,22 @@ width: 100%;
   width: 100%;
   }
   
-  #Direccion #Domicilio {
-  justify-content: end;
-  }
+
   
   #Calle {
-  width: 51%;
+  width: 43%;
   }
   
   
   #Domicilio {
   display: flex;
   justify-content: center;
-  
+  width: 30%;
+  align-items:end;
   }
   
   .Domicilio {
-  width: 25%;
+  width: 50%;
   }
   
   /*--FINAL DE PIEZAS POR SEPARADO--*/
