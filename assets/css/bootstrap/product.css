@@ -60,7 +60,8 @@ border-color: aliceblue;
   font-size: 11vw!important;
   width: 100%;
   white-space: nowrap;
-  -webkit-text-stroke: 1px gold;
+  -webkit-text-stroke: 1px var(--cantera-yellow);
+  text-stroke: 1px var(--cantera-yellow);
 }
 
 /*
