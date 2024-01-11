@@ -10,7 +10,7 @@
   background-color: rgba(0, 0, 0, .85);
   -webkit-backdrop-filter: saturate(180%) blur(20px);
   backdrop-filter: saturate(180%) blur(20px);
-
+  position: sticky;
 }
 
 .site-header .container-fluid {
@@ -22,7 +22,7 @@
   transition: color .15s ease-in-out;
   text-decoration: none;
   height: auto!important;
-  
+
 }
 .site-header a:hover {
   color: gold;
