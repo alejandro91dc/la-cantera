@@ -1,5 +1,6 @@
 .container {
   max-width: 960px;
+ 
 }
 
 /*
@@ -12,8 +13,9 @@
   backdrop-filter: saturate(180%) blur(20px);
 }
 
-.site-header .container-fluid .navbar-toggler-icon {
-
+.site-header .container-fluid .navbar-nav {
+border-style: solid;
+border-color: aliceblue;
 }
 
 .site-header .container-fluid {
