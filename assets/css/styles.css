@@ -694,6 +694,8 @@ h1 {
     clip-path: inset(0 0 95% 0);
   }
 }
+
+
 .canteranos .col-md-4 {
   position: relative;
 }
@@ -859,6 +861,10 @@ content: "";
 
 }
 
+.canteranos {
+  height: 85vh;
+}
+
 .content-box {
   display: none;
   margin-bottom: 20px;
@@ -959,6 +965,22 @@ top: 44.7%!important;
   height: auto!important;
 }
 
+.block-intro-text2 {
+  position: absolute;
+  height: auto;
+  width: 81%;
+  z-index: 12;
+  top: 26px;
+  left: 4em;
+  text-align: left;
+  transform: rotate(16deg);
+}
+
+.cabecera-eventos video {
+  width: auto;
+  height: 100vh;
+}
+
 model-viewer {
   width: 100%;
   height: 500px;
@@ -993,6 +1015,8 @@ model-viewer {
   width: 100%; /* Ancho del 100% del contenedor padre */
   height: 100vh; /* Altura fija, ajusta según sea necesario */
 }
+
+
 
 /*---------------------------------------------------------------------------------------*/
 
@@ -1222,14 +1246,12 @@ padding-top: 0.7em;
 .container-fluid #img-magic {
 width: 100%;
 height: 100%;
-background-color: #D3CDC6;
 align-content: center;
 }
 
 #img-magic .row {
-background-color: aqua;
 width: 100%;
-height: 100%;
+height: auto;
 flex-direction: column;
 align-content: center;
 }
@@ -1246,19 +1268,6 @@ align-items: center;
   height: 300px;
   }
 
-/*--FINAL DE IMAGEN + CARDS--*/
-
-/*------------------------FINAL DE CANTERANOS------------------------*/
-
-/*------------------------COMIENZO DE BLOG------------------------*/
-
-/*--lo dejamos pendiente--*/
-
-/*------------------------FINAL DE BLOG------------------------*/
-
-/*------------------------COMIENZO CONTACTO------------------------*/
-
-/*--COMIENZO DEL APARTADO GENERAL--*/
 
 #Container {
 width: 100%;
@@ -1510,7 +1519,6 @@ width: 100%;
   
   #evento-desc {
     width: 80%;
-   background-color: aquamarine;
    display: flex;
    flex-direction: column;
    margin-right: 3em;
@@ -1541,7 +1549,6 @@ align-content: center;
   padding-left: 2em;
   width: 335px;
   flex-direction: column;
-  background-color: aqua;
   }
   
   #event-flow { 
@@ -1607,15 +1614,11 @@ align-content: center;
   
   .container-fluid #img-magic {
   width: 100%;
-  height: 100%;
-  background-color: #D3CDC6;
   align-content: center;
   }
   
   #img-magic .row {
-  background-color: aqua;
   width: 100%;
-  height: 80%;
   }
   
   #img-magic .row .col-4 {
@@ -1630,7 +1633,64 @@ align-content: center;
     width: 500px;
     height: 300px;
     }
+
+    .block-intro-text {
+      position: absolute;
+      height: 100vh;
+      width: 79%;
+      z-index: 12px;
+      top: 15em;
+      left: 2em;
+      text-align: left;
+      transform: rotate(16deg);
+  }
   
+
+  #c-text {
+    width: 100%!important;
+    height: auto;
+}
+
+#c-text .row {
+  display: block!important;
+  height: auto;
+
+}
+
+.c-box {
+  height: 120px!important;
+}
+
+#img-magic .row {
+}
+
+
+.yellow-block {
+  background-color: var(--cantera-yellow);
+  position: absolute;
+  height: 640px;
+  top: 20em;
+  z-index: 0;
+  width: 91%;
+  right: -14px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.canteranos .intro-img {
+width: 100%;
+}
+
+.intro-img, .yellow-block {
+height: auto;
+}
+
+.yellow-block p {
+font-size: 1em;
+}
+
   /*--FINAL DE IMAGEN + CARDS--*/
   
   /*------------------------FINAL DE CANTERANOS------------------------*/
