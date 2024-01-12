@@ -914,6 +914,18 @@ content: "";
 
 
 @media only screen and (max-width: 767px) {
+#cabecera video {
+  width: auto;
+}
+
+.title {
+  display: none;
+}
+
+#gold-title {
+left: 3.7%!important;
+top: 44.7%!important;
+}
   .stagger-visualizer .dot {
     background-color: transparent;
     background-image: linear-gradient(180deg, #FFFFFF 8%, #D3CDC6 100%);
@@ -926,6 +938,25 @@ content: "";
     margin: 2em 1rem;
   }
 
+}
+
+.text-intro {
+  position: relative;
+  height: 100%;
+  width: 80%;
+  z-index: 12;
+  top: auto;
+  left: auto;
+  text-align: center;
+  transform: rotate(17deg);
+
+}
+.text-intro h3 {
+  font-size: 1.2em;
+}
+
+.text-intro .pt-3 {
+  height: auto!important;
 }
 
 model-viewer {
